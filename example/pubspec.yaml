@@ -1,0 +1,21 @@
+name: root_toast_example
+description: Demonstrates root_toast above sheets, dialogs and the keyboard.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  root_toast:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
